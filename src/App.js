@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="contacts">
+      <div className="contact-card">
+        <img src="http://placekitten.com/300/200" />
+        <h3>Mr. Whiskerson</h3>
+        <p>Phone: (030) 333-22-11</p>
+        <p>Email: mr.whiskazy@mail.meow</p>
+      </div>
+
+      <div className="contact-card">
+        <img src="http://placekitten.com/400/200" />
+        <h3>Fluffy</h3>
+        <p>Phone: (030) 543-22-11</p>
+        <p>Email: fluff@me.meow</p>
+      </div>
+
+      <div className="contact-card">
+        <img src="http://placekitten.com/400/300" />
+        <h3>Ms. Purrrson</h3>
+        <p>Phone: (030) 999-22-11</p>
+        <p>Email: purrrr@mail.meow</p>
+      </div>
+
+      <div className="contact-card">
+        <img src="http://placekitten.com/200/100" />
+        <h3>Felix</h3>
+        <p>Phone: (030) 876-22-11</p>
+        <p>Email: feliksss@mail.meow</p>
+      </div>
     </div>
   );
 }
